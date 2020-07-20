@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block staticfiles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+<script src="{{ url_for('static', filename='javascript/home.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+<h1>Homepage</h1>
+{% endblock %}
+
